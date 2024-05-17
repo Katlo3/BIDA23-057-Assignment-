@@ -1,0 +1,168 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-top: 0%;
+}
+
+/* Style for the navbar */
+.navbar {
+    background-color: black; /* Black background */
+  }
+  
+  /* Style for the links within the navbar */
+  .navbar-nav a {
+    color: white; 
+    font-weight: bold; 
+  }
+  
+  /* This moves the links to the right */
+  .navbar-nav {
+    margin-left: 65%; /* Automatically take up remaining space */
+  }
+  
+  /* Hover effect on links */
+.navbar-nav a:hover {
+    transform: scale(1.1); /* Zoom in by 10% */
+    transition: transform 0.2s ease-in-out;  /* Smooth zoom transition */
+  }
+
+  #carouselExampleFade .carousel-inner .carousel-item img {
+    width: 100%;  
+    height: 80vh;    
+    object-fit: cover;  
+  }
+
+  #carouselExampleFade .carousel-caption {
+    position: absolute;          /* Position from the top */
+    transform: translate(-50%, -50%);  /* Center the text */
+    width: 80%;       /* Adjust width as needed */
+    text-align: center;
+    color: white;     
+    padding: 15px;
+    position: absolute;  
+    bottom: 0;           
+    left: 20; 
+    font-weight: bolder;
+
+}
+
+.carousel-caption h1{
+    text-transform: uppercase;
+    font-family: "Freeman", sans-serif;
+    font-weight: 900;
+    font-size: 300%;
+}
+h1{
+  text-transform: uppercase;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+
+.card .card-img-top {
+  transition: transform 0.5s ease-in-out;  /* Smooth zoom transition */
+}
+
+.card .card-img-top:hover {
+  transform: scale(1.05);  /* Scale the image to 110% on hover */
+}
+
+/*====SOCIALS MEDIA====*/
+.bi-facebook {
+  font-size: 22px; /
+}
+.bi-twitter {
+  font-size: 22px; /
+}
+.bi-pinterest {
+  font-size: 22px; /
+}
+.bi-instagram {
+  font-size: 22px; /
+}
+.bi-youtube {
+  font-size: 22px; /
+}
+
+i.bi:not(:last-child) { /*space bettween icons expect last one*/
+  margin-right: 15px;
+  cursor: pointer;
+ 
+}
+
+.bi-facebook:hover {
+  color: blue; 
+}
+
+.bi-twitter-x:hover {  
+  color: lightblue; /* Typical Twitter blue */
+}
+
+.bi-pinterest:hover {
+  color: red; 
+}
+
+.bi-instagram:hover {
+  color: #E1306C; /* Instagram's gradient pink */
+}
+
+.bi-youtube:hover {
+  color: red; 
+  cursor: pointer;
+}
+
+/*======MOVIES======*/
+
+.card{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.pagination {
+  display: flex; /* Align items in a row */
+}
+
+.page-item {
+  margin: 0 5px;  /* Add some space between page items */
+}
+
+.page-link {
+  display: block;     /* Make it a block element for easier styling */
+  padding: 0.5rem 0.75rem; /* Padding within the link */
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ddd;   /* Subtle border */
+  border-radius: 3px;       /* Slightly rounded corners */
+  color: #333;              /* Dark text color */
+  text-decoration: none;   /* Remove default underline */
+}
+
+.page-link:hover {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
+  color: #222;              /* Darker text on hover */
+}
+
+.page-item.disabled .page-link {
+  background-color: #ddd;  /* Grayed out background when disabled */
+  border-color: #ddd;
+  color: #999;          /* Lighter text when disabled */
+  cursor: not-allowed;  /* Indicate it's not clickable */
+}
+
+.movie-info{
+  background-color: #202020;
+  color: white;
+}
+
+
+
+
